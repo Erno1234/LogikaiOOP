@@ -10,9 +10,9 @@ public class LogikaiOOP {
         Bekeres b2 = new Bekeres(2);
         Bekeres b3 = new Bekeres(3);
         System.out.println("Leírás");
-        System.out.println(b1.toString());
-        System.out.println(b2.toString());
-        System.out.println(b3.toString());
+        System.out.println("Az"+b1.toString()+". állítás!");
+        System.out.println("Az"+b2.toString()+". állítás!");
+        System.out.println("Az"+b3.toString()+". állítás!");
         System.out.println("Melyik:");
         System.out.println("A válasz jó | rossz");
     }
