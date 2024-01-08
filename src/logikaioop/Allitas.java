@@ -1,31 +1,32 @@
-
 package logikaioop;
 
+import java.util.Objects;
 
-public class Bekeres {
-    private int allitas;
 
-    public Bekeres(int allitas) {
+public class Allitas {
+    private String allitas;
+
+    public Allitas(String allitas) {
         this.allitas = allitas;
     }
-    
-    public int getAllitas() {
+
+    public String getAllitas() {
         return allitas;
     }
 
-    public void setAllitas(int allitas) {
+    public void setAllitas(String allitas) {
         this.allitas = allitas;
     }
 
     @Override
     public String toString() {
-        return ""+allitas;
+        return "Allitas{" + "allitas=" + allitas + '}';
     }
 
     @Override
     public int hashCode() {
         int hash = 7;
-        hash = 79 * hash + this.allitas;
+        hash = 11 * hash + Objects.hashCode(this.allitas);
         return hash;
     }
 
@@ -40,10 +41,9 @@ public class Bekeres {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        final Bekeres other = (Bekeres) obj;
-        return this.allitas == other.allitas;
+        final Allitas other = (Allitas) obj;
+        return Objects.equals(this.allitas, other.allitas);
     }
-    
-    
+
     
 }
