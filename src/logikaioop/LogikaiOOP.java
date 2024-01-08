@@ -14,4 +14,8 @@ public class LogikaiOOP {
         System.out.println("A válasz jó | rossz");
     }
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 50747e2160cb59064b5ccb359ec3b6d23fee9f76
