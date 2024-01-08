@@ -40,7 +40,7 @@ public class Lada {
 
     @Override
     public String toString() {
-        return "Lada{" + "allitsa=" + allitas + ", anyag=" + anyag + ", kincs=" + kincs + '}';
+        return  allitas + ", anyag=" + anyag + ", kincs=" + kincs ;
     }
     
     
