@@ -5,7 +5,7 @@ import java.util.Objects;
 
 
 public class Allitas {
-    private String allitas1, allitas2, allitas3;
+    private String allitas;
 
     public Allitas() {
         this.allitas1 = "Az 1. állítás!";
