@@ -6,7 +6,7 @@ import java.util.Objects;
 
 public class Allitas {
     private String allitas;
- 
+
     public Allitas(String allitas) {
         this.allitas = allitas;
     }
@@ -18,7 +18,7 @@ public class Allitas {
     public void setAllitas(String allitas) {
         this.allitas = allitas;
     }
- 
+
     @Override
     public int hashCode() {
         int hash = 7;
@@ -45,5 +45,6 @@ public class Allitas {
     public String toString() {
         return "Allitas{" + "allitas=" + allitas + '}';
     }
+
     
 }
