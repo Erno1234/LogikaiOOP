@@ -1,7 +1,7 @@
-
 package logikaioop;
 
 public class Lada {
+
     private String allitas, anyag;
     private boolean kincs;
 
@@ -11,12 +11,15 @@ public class Lada {
         this.kincs = kincs;
     }
 
-    public String getAllitas() {
+
+
+    public String getAllitsa() {
         return allitas;
     }
 
-    public void setAllitas(String allitas) {
-        this.allitas = allitas;
+    public void setAllitsa(String allitsa) {
+        this.allitas = allitsa;
+
     }
 
     public String getAnyag() {
@@ -37,6 +40,11 @@ public class Lada {
 
     @Override
     public String toString() {
+  
         return "Lada{" + "allitas=" + allitas + ", anyag=" + anyag + ", kincs=" + kincs + '}';
     }
+
+
+    
+
 }

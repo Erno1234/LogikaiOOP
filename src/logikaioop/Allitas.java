@@ -13,6 +13,13 @@ public class Allitas {
 
     public String getAllitas() {
         return allitas;
+<<<<<<< HEAD
+=======
+    }
+
+    public void setAllitas(String allitas) {
+        this.allitas = allitas;
+>>>>>>> origin/fejlesztes
     }
 
     @Override
@@ -23,7 +30,11 @@ public class Allitas {
     @Override
     public int hashCode() {
         int hash = 7;
+<<<<<<< HEAD
         hash = 37 * hash + Objects.hashCode(this.allitas);
+=======
+        hash = 11 * hash + Objects.hashCode(this.allitas);
+>>>>>>> origin/fejlesztes
         return hash;
     }
 
@@ -42,5 +53,9 @@ public class Allitas {
         return Objects.equals(this.allitas, other.allitas);
     }
 
+<<<<<<< HEAD
    
+=======
+    
+>>>>>>> origin/fejlesztes
 }
