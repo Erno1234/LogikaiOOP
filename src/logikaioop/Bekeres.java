@@ -19,7 +19,7 @@ public class Bekeres {
 
     @Override
     public String toString() {
-        return "Az " + allitas +". állítás!";
+        return ""+allitas;
     }
 
     @Override
