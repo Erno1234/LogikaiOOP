@@ -7,7 +7,7 @@ public class LogikaiOOP {
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
-        LadakFelhasznalas l1 = new LadakFelhasznalas();
+        Kontroller l1 = new Kontroller();
         System.out.println("Leírás");
         System.out.println(l1.toString());
         String beker = sc.nextLine();

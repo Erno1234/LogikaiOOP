@@ -1,12 +1,12 @@
 package logikaioop;
 
-public class LadakFelhasznalas {
+public class Kontroller {
 
     private Lada lada1, lada2, lada3;
 
-    public LadakFelhasznalas() {
+    public Kontroller() {
         this.lada1 = new Lada("Az 1. állítás!", " Cement ", false);
-        this.lada2 = new Lada("A 2. állítás! ", " Fa ", true);
+        this.lada2 = new Lada("A 2. állítás! ", " Fa ", false);
         this.lada3 = new Lada("A 3. állítás! ", " Kő ", true);
     }
 
