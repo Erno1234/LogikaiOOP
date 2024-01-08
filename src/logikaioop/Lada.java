@@ -4,9 +4,15 @@ public class Lada {
 
     private String allitas, anyag;
     private boolean kincs;
+ 
 
+<<<<<<< HEAD
     public Lada(String allitas, String anyag, boolean kincs) {
         this.allitas = allitas;
+=======
+    public Lada(String allitsa, String anyag, boolean kincs) {
+        this.allitas = allitsa;
+>>>>>>> origin/Marton
         this.anyag = anyag;
         this.kincs = kincs;
     }
@@ -19,7 +25,10 @@ public class Lada {
 
     public void setAllitsa(String allitsa) {
         this.allitas = allitsa;
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/Marton
     }
 
     public String getAnyag() {
@@ -40,8 +49,12 @@ public class Lada {
 
     @Override
     public String toString() {
+<<<<<<< HEAD
   
         return "Lada{" + "allitas=" + allitas + ", anyag=" + anyag + ", kincs=" + kincs + '}';
+=======
+        return  allitas + ", anyag=" + anyag + ", kincs=" + kincs ;
+>>>>>>> origin/Marton
     }
 
 
