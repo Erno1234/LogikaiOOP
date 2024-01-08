@@ -1,11 +1,9 @@
 
 package logikaioop;
 
-import java.util.Scanner;
     
 public class LogikaiOOP {
     
-    static Scanner sc = new Scanner(System.in);
     
     public static void main(String[] args) {
         Bekeres b1 = new Bekeres(1);
@@ -16,7 +14,6 @@ public class LogikaiOOP {
         System.out.println(b2.toString());
         System.out.println(b3.toString());
         System.out.println("Melyik:");
-        String beker = sc.nextLine();
         System.out.println("A válasz jó | rossz");
     }
     
