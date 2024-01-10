@@ -18,7 +18,6 @@ public class Allitas {
  
     public void setAllitas(String allitas) {
         this.allitas = allitas;
-
     }
 
     @Override
