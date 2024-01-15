@@ -1,7 +1,8 @@
 
-package logikaioop;
+package Controller;
 
 import java.util.Scanner;
+import modell.Lada;
 
 public class Kontroller {
 

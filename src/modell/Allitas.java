@@ -1,5 +1,5 @@
 
-package logikaioop;
+package modell;
 
 import java.util.Objects;
 
