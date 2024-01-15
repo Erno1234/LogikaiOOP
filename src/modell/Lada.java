@@ -1,15 +1,12 @@
-
-package logikaioop;
-
+package modell;
 
 public class Lada {
 
     private String allitas, anyag;
     private boolean kincs;
- 
 
-    public Lada(String allitsa, String anyag, boolean kincs) {
-        this.allitas = allitsa;
+    public Lada(String allitas, String anyag, boolean kincs) {
+        this.allitas = allitas;
         this.anyag = anyag;
         this.kincs = kincs;
     }
@@ -20,6 +17,15 @@ public class Lada {
 
     public void setAllitsa(String allitsa) {
         this.allitas = allitsa;
+    }
+
+    public String getAllitas() {
+        return allitas;
+    }
+
+    public void setAllitas(String allitas) {
+        this.allitas = allitas;
+
     }
 
     public String getAnyag() {
@@ -40,9 +46,9 @@ public class Lada {
 
     @Override
     public String toString() {
-        return  allitas + ", anyag=" + anyag + ", kincs=" + kincs ;
+
+        return "Lada{" + "allitas=" + allitas + ", anyag=" + anyag + ", kincs=" + kincs + '}';
+
     }
-    
-    
-            
+
 }
